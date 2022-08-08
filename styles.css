@@ -1,0 +1,123 @@
+body{
+    height: 1024px;
+    width: 1440px;
+    left: 703px;
+    top: 377px;
+    border-radius: 8px;
+    background-color: #FFDEDC;
+    display: flex;
+    justify-content: center;
+}
+.fotos{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 200px;
+    margin-bottom: 250px;
+    margin-left: 1px;
+    margin-right: 40px;
+}
+.foto_arriba{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.foto_abajo{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.foto-pagina3{
+    size: 2px;
+}
+
+.foto-pagina2{
+    size: 2px;
+}
+
+.foto_derecha{
+    size: 2px;
+}
+
+.foto_pagina4{
+    size: 2px;
+}
+
+.foto_pagina5{
+    size: 2px;
+}
+
+.foto_pagina6{
+    size: 2px;
+}
+
+.info{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+    h1{
+        
+        width: 200px;
+        left: 1200px;
+        top: 50px;
+        justify-content: center;
+        display: flex;
+        font-family:'Kdam Thmor Pro';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 32px
+        
+    }
+
+
+    .parrafo{
+        background-color: #F2BBBB;
+        justify-content: center;
+        width: 400px;
+        height: 300px;
+        left: 774px;
+        top: calc(1000%-50px/2 + 4px);
+        font-family:'EB Garamond';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 32px
+    }
+
+    .btnredes > a {
+        text-decoration: none;
+        font-size: larger;
+        display: inline-flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .texto3:hover{   
+        transform: scale(1.1);
+        box-shadow: 10px 10px 5px lightblue;
+    
+    }
+    
+    .texto4:hover{
+        transform: scale(1.1);
+        box-shadow: 10px 10px 5px lightblue;
+    }
+    
+    button{
+        display: flex;
+        padding: 20px;
+        width: 200px;
+        margin: -10px;
+        border-style:double;
+        border-color:lightcyan;
+        background-color:darkslategray;
+        border-radius: 20px;   
+        justify-content: center;
+    }          
+
+     
+
+
